@@ -35,8 +35,8 @@ fpga {
     #            DEVICE_IDV2_X is:   ((Cham devId) << 8 | index inside group )
     # ------------------------------------------------------------------------
     DEVICE_IDV2_0 = U_INT32 0x5701
-    DEVICE_IDV2_1 = U_INT32 0x1d01
-    DEVICE_IDV2_2 = U_INT32 0x1d02
+    DEVICE_IDV2_1 = U_INT32 0x1d00
+    DEVICE_IDV2_2 = U_INT32 0x1d01
     DEVICE_ID_3 = U_INT32 0x1b01
     DEVICE_ID_4 = U_INT32 0x1b02
     DEVICE_ID_5 = U_INT32 0x701
@@ -50,7 +50,7 @@ fpga {
     #        debug levels (optional)
     #        these keys have only effect on debug drivers
     # ------------------------------------------------------------------------
-    DEBUG_LEVEL = U_INT32 0xc0008000
+    DEBUG_LEVEL = U_INT32 0xc0008001
     DEBUG_LEVEL_BK = U_INT32 0xc0008000
     DEBUG_LEVEL_OSS = U_INT32 0xc0008000
     DEBUG_LEVEL_DESC = U_INT32 0xc0008000
